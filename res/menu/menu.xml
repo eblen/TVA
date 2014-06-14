@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/preferences"
+		android:title="@string/preferences_label"
+		android:alphabeticShortcut="@string/preferences_shortcut" />
+	<item android:id="@+id/start_new_puzzle"
+		android:title="@string/start_new_puzzle_label"
+		android:alphabeticShortcut="@string/start_new_puzzle_shortcut" />
+</menu>

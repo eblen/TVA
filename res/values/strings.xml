@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TetravexController!</string>
+    <string name="app_name">Tetravex</string>
+    <string name="preferences_label">Preferences</string>
+    <string name="preferences_title">Tetravex Preferences</string>
+    <string name="preferences_shortcut">p</string>
+    <string name="start_new_puzzle_label">Start New Puzzle</string>
+    <string name="start_new_puzzle_title">Start New Puzzle</string>
+    <string name="start_new_puzzle_shortcut">s</string>
+    <string name="sound_effects_title">Sound Effects</string>
+    <string name="sound_effects_summary">Play sound effects</string>
+    <string name="puzzle_size_title">Puzzle Size</string>
+    <string name="puzzle_size_summary">Set puzzle size</string>
+    <string name="number_of_edge_types_title">Number of Colors</string>
+    <string name="number_of_edge_types_summary">Set number of triangle colors</string>
+</resources>

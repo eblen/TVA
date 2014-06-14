@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference
+		android:key="sound_effects"
+		android:title="@string/sound_effects_title"
+		android:summary="@string/sound_effects_summary"
+		android:defaultValue="true" />
+	<ListPreference
+		android:key="puzzle_size"
+		android:title="@string/puzzle_size_title"
+		android:summary="@string/puzzle_size_summary"
+		android:defaultValue="4x4"
+		android:entries="@array/puzzle_sizes_options"
+		android:entryValues="@array/puzzle_sizes_values" />
+	<ListPreference
+		android:key="number_of_edge_types"
+		android:title="@string/number_of_edge_types_title"
+		android:summary="@string/number_of_edge_types_summary"
+		android:defaultValue="8"
+		android:entries="@array/number_of_edge_types_options"
+		android:entryValues="@array/number_of_edge_types_values" />
+</PreferenceScreen>
